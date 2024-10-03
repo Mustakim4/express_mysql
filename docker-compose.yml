@@ -1,8 +1,9 @@
 services:
   express_app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    #  build:
+    #  context: .
+    #  dockerfile: Dockerfile
+    image: mustakquimdiwan/express_app
     container_name: express_app
     ports:
       - "3000:3000"
